@@ -1,0 +1,33 @@
+
+
+body {
+
+    background-color: rgb(235, 221, 204);
+}
+
+p{
+    text-align:start;
+}
+
+h1{ 
+    text-align:start;
+    border-bottom: 1px solid rgb(24, 24, 24);
+    padding: 0 0 10px 0;
+}
+
+
+h2{ 
+    text-align:start;
+    margin: 10px 0 10px 0;
+}
+
+h3{ 
+    text-align:start;
+}
+
+
+
+
+
+
+
