@@ -1,4 +1,7 @@
-
+html, body{
+    margin: 0;
+padding: 0;
+}
 body{
     background-color: #E5E5E5;
 }
@@ -19,9 +22,10 @@ body{
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 19px 0 16px 120px;
+    padding: 16px 0 16px 120px;
     width: 922px;
-    height: 20px;   
+    height: 40px;   
+    margin: 0;
 }
 
 .head a{
@@ -38,7 +42,7 @@ body{
 }
 
 .A11 {
-    margin: 15px 25px 0 30px;
+    margin: 15px 0 0 20px;
     width: 130px;
     height: 40px;
     left: 116px;
@@ -53,6 +57,7 @@ body{
     gap: 10px;
     color:rgba(255, 255, 255, 1);
     cursor: pointer;
+    border: none;
 }
 
 
@@ -70,20 +75,21 @@ body{
 .text{
     display: flex;
     margin: 0 0 0 24%;;
-    height: 20px;
-    width: 689px;
+    width: 700px;
     left: 24px;
     top: 0px;
     font-family: inter;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
+    text-align: center;
+    align-items: center;
     color: rgba(255, 255, 255, 1);
 }
 
 
 .photo1{
-    margin-top: 10px;
+    margin-right: 10px;
     width: 16px;
     height: 16px;
 }
@@ -92,24 +98,15 @@ body{
     text-decoration-line: underline;
 }
 
-.photo2{
-    height: 16px;
-    width: 16px;
-    left: 0px;
-    top: 2px;
-    border-radius: 0px;
-    margin: 13px 0px 16px 2px;
-}
 
 .host{
-    width: 9px;
-    height: 6px;
     background-color: #2B2627;
     border: none;
-    margin: 0px 0 0 20px;
+    margin: 3px 0 0 20px;
     text-align: center;
     transition-duration: 0.4s;
     cursor: pointer;
+    padding: 0;
 }
 
 .center1{
@@ -134,12 +131,11 @@ body{
     background: rgba(234, 76, 137, 0.1);
 }
 
+
 .text3{
     width: 350px;
     height: 40px;
     color: black;
-    margin-left: 10px;
-    margin-top: 18px;
     font-size: 14px;
     font-family: Inter;
     font-weight: 400;
@@ -147,6 +143,7 @@ body{
     letter-spacing: 0em;
 }
         
+
 .read{
     color: rgba(234, 76, 137, 1); 
 }
@@ -333,7 +330,7 @@ body{
     top: 0px;
     border-radius: 6px;
     border: none;
-    margin: 16px 8px 0  0;
+    margin: 33px 0 0  11px;
     padding: 8px;
     background: rgba(234, 240, 244, 1);
     color: rgba(104, 127, 140, 1);
@@ -349,7 +346,7 @@ body{
     top: 0px;
     border-radius: 6px;
     border: none;
-    margin: -34px 0 0 184px;
+    margin: -32px 0 0 180px;
     padding: 8px;
     background: rgba(64, 193, 167, 1);
     color: rgba(255, 255, 255, 1);
